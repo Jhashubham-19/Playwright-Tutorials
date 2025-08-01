@@ -1,6 +1,6 @@
 const {test, expect}=require('@playwright/test')
 
-test("Handle checkboxes",async ({page})=>{
+test("Handle checkboxes-Dropdown",async ({page})=>{
 
     await page.goto('https://itera-qa.azurewebsites.net/home/automation');
 
